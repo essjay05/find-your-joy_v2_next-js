@@ -1,8 +1,22 @@
 .footer {
-  padding: 1rem;
+  padding: 0.5rem;
   backdrop-filter: blur(10px);
   background: hsla(0, 0%, 100%, 0.4);
   text-align: center;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  padding: 0.75rem;
+}
+
+.navLink {
+  padding: 0.75rem;
+  margin: 0 0.75rem;
+}
+
+.navLink:last-of-type {
+  margin-right: 0;
 }
