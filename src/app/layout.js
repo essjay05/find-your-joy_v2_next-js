@@ -12,12 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <Head>
-        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Permanent+Marker&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Kalam:wght@400;700&family=Nothing+You+Could+Do&family=Permanent+Marker&family=Reenie+Beanie&display=swap" rel="stylesheet">
-      </Head> */}
+      <Head>
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   )
