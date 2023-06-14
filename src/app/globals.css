@@ -49,6 +49,14 @@
   --purple-color: #706fd3;
   --dark-blue-color: #1e3799;
   --blue-color: #0652dd;
+
+  /* Site Color Palette */
+  --text-black: var(--black-color);
+  --text-white: var(--white-color);
+  --text-blue: var(--dark-blue-color);
+  --link-blue: var(--blue-color);
+  --text-green: var(--dark-green-color);
+  --text-teal: var(--teal-color);
 }
 
 /* Dark Mode */
