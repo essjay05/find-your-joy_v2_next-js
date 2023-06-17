@@ -65,6 +65,14 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
+    /* Site Color Palette */
+    --text-black: var(--white-color);
+    --text-white: var(--black-color);
+    --text-blue: var(--dark-blue-color);
+    --link-blue: var(--blue-color);
+    --text-green: var(--green-color);
+    --text-yellow: var(--yellow-color);
   }
 }
 
